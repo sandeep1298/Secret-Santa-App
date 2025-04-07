@@ -1,0 +1,47 @@
+.santa_back {
+  background-image: url('./assets/christmas_back_img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.card_header_text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dis_non{
+  display: none;
+}
+.btn_upload{
+  background-color: #f5751a;
+  color: #fff !important;
+  cursor: pointer; 
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  margin-top: 2px;
+}
+
+.btn_warning_submit {
+  background-color: #f5751a;
+  border: 1px solid #f5751a;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 12px 20px;
+}
+
+.btn_warning_submit:hover {
+  color: #f5751a;
+  background-color: transparent;
+}
+
+.button_align {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
