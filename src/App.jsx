@@ -75,9 +75,9 @@ function App() {
       <>
       <div className="santa_back">
         <div className="container flex-center">
-          <div className="card">
-            <h1 className="text-center card-header text-white secondary-color card_header_text">Secret Santa App</h1>
-          <div className="card-body p-5">
+          <div className="card card_bord">
+            <h1 className="text-center card-header text-white secondary-color card_header_text ">Secret Santa App</h1>
+          <div className="card-body p-lg-5">
             <FileUploader
               label="Upload Current Year Employee List"
               onFileUpload={(file) => handleFileUpload(file, false)}
@@ -88,7 +88,7 @@ function App() {
               onFileUpload={(file) => handleFileUpload(file, true)}
             />
 
-            <div className='pt-3 button_align'>
+            <div className='pt-lg-3 button_align'>
               <button
                 className="btn btn_warning_submit"
                 onClick={handleGenerate}

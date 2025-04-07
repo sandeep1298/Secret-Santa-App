@@ -8,9 +8,11 @@
   height: 100vh;
 }
 .card_header_text{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
-
+.card_bord{
+border-radius: 10px;
+}
 .dis_non{
   display: none;
 }
@@ -43,5 +45,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .card_header_text{
+    font-size: 28px;
+  }
+  .btn_warning_submit {
+   font-size: 12px;
+  }
 }
 
